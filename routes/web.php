@@ -1,5 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
+use App\Service;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+
     return view('welcome');
 });
 
@@ -24,6 +26,12 @@ Route::post('/addservice', 'ServiceController@store')->name('addservice.store');
 Route::get('/servicedetails/{id}', 'ServiceController@show')->name('service.view');
 
 Route::get('/contact', 'ServiceController@contact')->name('contact');
+
+Route::get('/hospital', 'ServiceController@hospital')->name('hospital');
+Route::get('/mechanic', 'ServiceController@mechanic')->name('mechanic');
+Route::get('/firestation', 'ServiceController@firestation')->name('firestation');
+Route::get('/petrolstation', 'ServiceController@petrolstation')->name('petrolstation');
+Route::get('/towing', 'ServiceController@towing')->name('towing');
 //Route::get('/servicedetails', 'HomeController@details')->name('details');
 
 Route::any('/search', 'ServiceController@search')->name('search');

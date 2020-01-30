@@ -42,7 +42,7 @@
 										<div class="listing">
 											<div class="listing_image">
 												<div class="listing_icon"><a href="#"><img src="images/loc.png" alt=""></a></div>
-                                            <img src="{{$service->image}}" alt="">
+                                            <img src="./uploads/service/damilare.jpg" height="400" alt="">
 											</div>
 											<div class="listing_title_container">
                                             <div class="listing_title"><a href="{{route('service.view', $service->id)}}">{{$service->name}}</a></div>

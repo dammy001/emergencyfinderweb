@@ -137,7 +137,7 @@
 
                                 <!-- Category -->
                                 <div class="category text-center">
-                                    <a href="listings.html">
+                                <a href="{{route('hospital')}}">
                                         <div class="d-flex flex-md-column flex-row align-items-md-center align-items-md-start align-items-center justify-content-start">
                                             <div class="cat_icon"><img src="images/icon_1.svg" class="svg" alt="https://www.flaticon.com/authors/monkik"></div>
                                             <div class="cat_title">Hospitals</div>
@@ -147,7 +147,7 @@
 
                                 <!-- Category -->
                                 <div class="category text-center">
-                                    <a href="listings.html">
+                                    <a href="{{route('mechanic')}}">
                                         <div class="d-flex flex-md-column flex-row align-items-md-center align-items-md-start align-items-center justify-content-start">
                                             <div class="cat_icon"><img src="images/icon_2.svg" class="svg" alt="https://www.flaticon.com/authors/monkik"></div>
                                             <div class="cat_title">Mechanics</div>
@@ -157,7 +157,7 @@
 
                                 <!-- Category -->
                                 <div class="category text-center">
-                                    <a href="listings.html">
+                                    <a href="{{route('firestation')}}">
                                         <div class="d-flex flex-md-column flex-row align-items-md-center align-items-md-start align-items-center justify-content-start">
                                             <div class="cat_icon"><img src="images/icon_3.svg" class="svg" alt="https://www.flaticon.com/authors/monkik"></div>
                                             <div class="cat_title">Fire Stations</div>
@@ -167,7 +167,7 @@
 
                                 <!-- Category -->
                                 <div class="category text-center">
-                                    <a href="listings.html">
+                                    <a href="{{route('petrolstation')}}">
                                         <div class="d-flex flex-md-column flex-row align-items-md-center align-items-md-start align-items-center justify-content-start">
                                             <div class="cat_icon"><img src="images/icon_4.svg" class="svg" alt="https://www.flaticon.com/authors/monkik"></div>
                                             <div class="cat_title">Petrol Stations</div>
@@ -177,12 +177,55 @@
 
                                 <!-- Category -->
                                 <div class="category text-center">
-                                    <a href="listings.html">
+                                    <a href="{{route('towing')}}">
                                         <div class="d-flex flex-md-column flex-row align-items-md-center align-items-md-start align-items-center justify-content-start">
                                             <div class="cat_icon"><img src="images/icon_5.svg" class="svg" alt="https://www.flaticon.com/authors/monkik"></div>
                                             <div class="cat_title">Towing</div>
                                         </div>
                                     </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="how container_custom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="section_title text-center"><h1>Recommended Service Providers</h1></div>
+                            <div class="icon_box_container d-flex flex-row align-items-start justify-content-between flex-wrap">
+
+                                <!-- Icon Box -->
+                                <div class="icon_box d-flex flex-column align-items-center justify-content-start text-center">
+                                    <div class="icon_box_num">4.4</div>
+                                    <div class="icon_box_icon"><img src="images/icon_6.svg" alt="https://www.flaticon.com/authors/monkik"></div>
+                                    <div class="icon_box_title">Choose Nearest Provider</div>
+                                    <div class="icon_box_text">
+                                        <p>Donec cursus, risus non fermentum lacinia, felis lectus interdum velit, in pulvinar enim justo at sem. Quisque ut semper neque. Suspendisse quam est</p>
+                                    </div>
+                                </div>
+
+                                <!-- Icon Box -->
+                                <div class="icon_box d-flex flex-column align-items-center justify-content-start text-center">
+                                    <div class="icon_box_num">02.</div>
+                                    <div class="icon_box_icon"><img src="images/icon_7.svg" alt="https://www.flaticon.com/authors/monkik"></div>
+                                    <div class="icon_box_title">Find your pick</div>
+                                    <div class="icon_box_text">
+                                        <p>Donec cursus, risus non fermentum lacinia, felis lectus interdum velit, in pulvinar enim justo at sem. Quisque ut semper neque. Suspendisse quam est</p>
+                                    </div>
+                                </div>
+
+                                <!-- Icon Box -->
+                                <div class="icon_box d-flex flex-column align-items-center justify-content-start text-center">
+                                    <div class="icon_box_num">03.</div>
+                                    <div class="icon_box_icon"><img src="images/icon_8.svg" alt="https://www.flaticon.com/authors/monkik"></div>
+                                    <div class="icon_box_title">Get Assistance</div>
+                                    <div class="icon_box_text">
+                                        <p>Donec cursus, risus non fermentum lacinia, felis lectus interdum velit, in pulvinar enim justo at sem. Quisque ut semper neque. Suspendisse quam est</p>
+                                    </div>
                                 </div>
 
                             </div>

@@ -17,7 +17,7 @@
 							<div class="listing_background_image_right">
 								<div class="background_image" style="background-image:url(images/listing_image_3.jpg)"></div>
 							</div>
-							<div class="background_image" style="background-image:url(../uploads/service/{{$services->image}})"></div>
+							<div class="background_image" style="background-image:url(../uploads/service/damilare.jpg)"></div>
 						</div>
 					</div>
 				</div>

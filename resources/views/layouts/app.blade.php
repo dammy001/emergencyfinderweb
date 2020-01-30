@@ -27,12 +27,12 @@
 				<li><a href="/">Home</a></li>
 				<li><a href="#">About us</a></li>
             <li><a href="{{ route('service') }}">Service Providers</a></li>
-				<li><a href="blog.html">News</a></li>
+
 				<li><a href="{{route('contact')}}">Contact</a></li>
 			</ul>
 		</nav>
 		<div class="menu_link">
-			<a href="#">+Add Service</a>
+        <a href="{{route('addservice')}}">+Add Service</a>
 		</div>
 	</div>
 </div>
@@ -139,5 +139,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="./plugins/progressbar/progressbar.min.js"></script>
 <script src="./plugins/parallax-js-master/parallax.min.js"></script>
 <script src="./js/custom.js"></script>
+
+<script>
+
+</script>
 </body>
 </html>

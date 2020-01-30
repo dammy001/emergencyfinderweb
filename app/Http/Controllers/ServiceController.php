@@ -56,8 +56,11 @@ class ServiceController extends Controller
 
         $services = Service::where('category', 'like', "%$searchfor%")->where('city', 'like', "%$location%")->get();
         return view('searchresults')->with('services', $services);
+    }
 
-
+    public function hospital(){
+        $hospital = Service::where('category', 'like', 'Hospital')->get();
+        return view('');
     }
 
     /**
@@ -93,7 +96,8 @@ class ServiceController extends Controller
            $file = $request->file('image');
            $extension = $file->getClientOriginalExtension();
            $filename = time() . "." . $extension;
-           $file->storeAs('uploads/service/', $filename);
+           $folderpath = public_path().'/uploads/'. date('Y'). $filename;
+           $file->move($folderpath);
            $service->image = $filename;
        }else{
            return $request;

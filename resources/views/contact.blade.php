@@ -7,7 +7,7 @@
 		<!-- Home -->
 
 		<div class="home">
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="./images/contact.jpg" data-speed="0.8"></div>
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="./images/index.jpg" data-speed="0.8"></div>
 			<div class="home_container">
 				<div class="container">
 					<div class="row">
@@ -55,15 +55,15 @@
 										<ul>
 											<li class="d-flex flex-row align-items-start justify-content-start">
 												<div class="contact_info_icon"><img src="./images/info_1.png" alt=""></div>
-												<div class="contact_info_content"><span>Address: </span>Main Str, no 253, New York, NY</div>
+												<div class="contact_info_content"><span>Address: </span>Lagos State University</div>
 											</li>
 											<li class="d-flex flex-row align-items-start justify-content-start">
 												<div class="contact_info_icon"><img src="./images/info_2.png" alt=""></div>
-												<div class="contact_info_content"><span>Phone: </span>+546 990221 123</div>
+												<div class="contact_info_content"><span>Phone: </span>+234810754362</div>
 											</li>
 											<li class="d-flex flex-row align-items-start justify-content-start">
 												<div class="contact_info_icon"><img src="./images/info_3.png" alt=""></div>
-												<div class="contact_info_content"><span>E-mail: </span>restaurant@contact.com</div>
+												<div class="contact_info_content"><span>E-mail: </span>emergencyfinder@gmail.com</div>
 											</li>
 										</ul>
 									</div>
@@ -79,11 +79,11 @@
 							<!-- Google Map -->
 
 							<div class="map">
-								<div id="google_map" class="google_map">
+								{{-- <div id="google_map" class="google_map">
 									<div class="map_container">
 										<div id="map"></div>
 									</div>
-								</div>
+								</div> --}}
 							</div>
 
 						</div>
